@@ -1,0 +1,158 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#head {
+    position: relative;
+    width: 100%;
+    height: 95vh;
+    max-height: 150vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./images/nnn.jpg)
+}
+
+.container {
+    position: absolute;
+    margin-top: 300px;
+}
+
+.card {
+    width: 25rem;
+    /* Adjust the width as desired */
+    height: auto;
+    /* Adjust the height as desired */
+    margin-bottom: 20px;
+}
+.card:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bt{
+    width: 40%; /* Adjust the width as desired */
+    text-align: center;
+    margin-left: 6.5rem; /* Center align the button text */
+  }
+
+.cimg {
+    height: 250px;
+    width: 100%;
+    
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+#honeymoon {
+    padding: 40px;
+   
+}
+.carousel-item {
+    max-height: 500px; /* Adjust the value as needed */
+}
+.hhead{
+    margin-top: -200px;
+    color:rgb(58, 130, 220);
+    font-weight:1000;
+    text-shadow: 2px 2px white;
+}
+.carousel-item img{ 
+    width: 100%;/* Adjust the height as needed */
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.img-group {
+    display: flex;
+    flex-direction: row;
+}
+.imges{
+    width: 30px;
+    height: 30px;
+}
+
+.mydiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 15rem;
+    margin-left: 60px;
+    margin-right: 40px;
+    
+}
+.nimg{
+    width: 12.5rem;
+    height: 12.5rem;
+}
+.overlay-container {
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(100, 244, 229, 0.6);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .overlay-container:hover .overlay {
+    opacity: 1;
+  }
+  .pmore{
+    font-family: "Brush Script MT",Brush Script Std, cursive;
+  }
+  .mydiv1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 15rem;
+    margin-left: 60px;
+    margin-right: 40px;
+    
+}
+.mimg{
+    width: 10.5rem;
+    height: 10.5rem;
+}
+.cc{
+    background-color: seashell;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+.checked {
+    color: green;
+  }
+  .star{
+    display: inline-block;
+  }
+  .social{
+    background-color:rgb(4, 4, 36);
+    width: 100%;
+  }
